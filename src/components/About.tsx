@@ -28,7 +28,7 @@ export default function About() {
                   </p>
                   
                   <p className="text-muted-foreground mb-6 leading-relaxed">
-                    I currently work as a Civil Engineer, using math nearly every day, and have successfully helped countless students improve their grades and develop a genuine appreciation for mathematics. My teaching philosophy centers on personalized learning plans tailored to each student's unique needs and learning style.
+                    I currently work as a Civil Engineer, using math nearly every day, and have successfully helped countless students improve their grades and develop a genuine appreciation for mathematics. My teaching philosophy centers on personalized learning plans tailored to each student&apos;s unique needs and learning style.
                   </p>
 
                   <div className="space-y-4">

@@ -135,7 +135,7 @@ export default function Pricing() {
               All sessions include progress tracking & 1:1 personalized attention
             </p>
             <p className="text-sm text-muted-foreground">
-              First session is always risk-free with our satisfaction guarantee. If it's not a fit, you don't pay a thing.
+              First session is always risk-free with our satisfaction guarantee. If it&apos;s not a fit, you don&apos;t pay a thing.
             </p>
           </div>
         </div>

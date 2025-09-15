@@ -12,7 +12,7 @@ export const Hero = () => {
             </div>
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
             Struggling with Math?
-            <span className="text-primary block">Let's Fix that!</span>
+            <span className="text-primary block">Let&apos;s Fix that!</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Personalized online math tutoring designed to build confidence, improve grades, and unlock your full potential in mathematics.

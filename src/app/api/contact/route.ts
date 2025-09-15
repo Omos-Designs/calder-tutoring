@@ -61,11 +61,16 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json({ ok: true })
-  } catch (err: any) {
-    console.error("Route error:", err)
-    return NextResponse.json(
-      { ok: false, error: err?.message || "Unexpected server error" },
-      { status: 500 }
-    )
-  }
+  } catch (err: unknown) {
+    console.error("Route error:", err);
+
+    const message =
+        err instanceof Error
+        ? err.message
+        : typeof err === "string"
+        ? err
+        : "Unexpected server error";
+
+    return NextResponse.json({ ok: false, error: message }, { status: 500 });
+    }
 }
