@@ -1,3 +1,5 @@
+"use client";
+
 import { Calculator, Calendar } from 'lucide-react'
 import React from 'react'
 import { Button } from './ui/button'
@@ -22,6 +24,7 @@ export const Hero = () => {
                 size="lg"
                 className="text-lg px-8 py-6"
                 data-testid="button-schedule-hero"
+                onClick={() => window.open("https://calendly.com/joncalder-caldertutoring/30min", "_blank")}
             >
                 <Calendar className="w-5 h-5 mr-2" />
                 Schedule Free First Session
@@ -31,6 +34,10 @@ export const Hero = () => {
                 size="lg"
                 className="text-lg px-8 py-6"
                 data-testid="button-learn-more-hero"
+                onClick={() => {
+                    const element = document.getElementById('about');
+                    element?.scrollIntoView({ behavior: 'smooth' });
+                }}
             >
                 Learn More
             </Button>

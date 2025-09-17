@@ -4,7 +4,6 @@ import { Mail, Calendar } from "lucide-react";
 
 export default function Footer() {
   const openCalendly = () => {
-    console.log('Opening Calendly for scheduling');
     window.open("https://calendly.com/joncalder-caldertutoring/30min", "_blank");
   };
 
@@ -20,11 +19,11 @@ export default function Footer() {
               </p>
               <div className="space-y-2">
                 <a
-                  href="mailto:calder_jon@yahoo.com"
+                  href="mailto:joncalder@caldertutoring.com"
                   className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  calder_jon@yahoo.com
+                  joncalder@caldertutoring.com
                 </a>
               </div>
             </div>
@@ -77,7 +76,7 @@ export default function Footer() {
             <p>
               &copy; 2025 Calder Tutoring. All rights reserved.
               <span className="mx-2">•</span>
-              Site by{" "}
+              Designed & Developed by{" "}
               <a
                 href="https://omosdesigns.com"
                 target="_blank"

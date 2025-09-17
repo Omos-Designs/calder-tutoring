@@ -6,6 +6,7 @@ import { Calendar } from "lucide-react";
 import React from 'react'
 
 export function openCalendly() {
+    window.open('https://calendly.com/joncalder-caldertutoring/30min', '_blank');
 }
 
 const scrollToSection = (sectionId: string) => {

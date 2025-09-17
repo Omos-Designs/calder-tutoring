@@ -7,9 +7,7 @@ import { Check, Calendar, Star } from "lucide-react";
 
 export default function Pricing() {
   const openCalendly = () => {
-    console.log('Opening Calendly for scheduling');
-    // TODO: Remove mock functionality - integrate with actual Calendly
-    window.open('https://calendly.com/jon-calder', '_blank');
+    window.open('https://calendly.com/joncalder-caldertutoring/30min', '_blank');
   };
 
   const pricingPlans = [

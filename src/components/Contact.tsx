@@ -61,11 +61,11 @@ export function ContactForm() {
                   <h3 className="text-xl font-bold mb-4">Contact Information</h3>
                   <div className="space-y-2">
                   <a
-                    href="mailto:calder_jon@yahoo.com"
+                    href="mailto:joncalder@caldertutoring.com"
                     className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="w-5 h-5 text-primary" />
-                    calder_jon@yahoo.com
+                    joncalder@caldertutoring.com
                   </a>
                     <div className="flex items-center gap-3">
                       <MapPin className="w-5 h-5 text-primary" />
