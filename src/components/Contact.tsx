@@ -198,7 +198,7 @@ export function ContactForm() {
                 <CheckCircle2 className="mx-auto h-10 w-10 text-accent" />
                 <CardTitle>Thank you!</CardTitle>
                 <CardDescription>
-                  Someone from Matter Analytics will be reaching out soon.
+                  Thank you, I will be in touch soon!
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center" aria-live="polite">
